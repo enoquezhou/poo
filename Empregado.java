@@ -6,6 +6,10 @@ public class Empregado{
     private double comissao;
     private double bonus;
 
+    public void setTipo (int tipo){
+        this.tipo = tipo;
+    }
+
     public double calculaSalario(){
         if (tipo ==1){
             return salario;
